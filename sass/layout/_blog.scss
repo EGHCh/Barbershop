@@ -1,0 +1,64 @@
+//HERO SECTION
+.hero {
+    width: 100vw;
+    background-image: url(../img/post-image.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+        .hero__title {
+            height: 500px;
+            margin-top: 17rem;
+            font-style: italic;
+        }
+        .hero__ico-a {
+            margin-top: 50vh;
+            height: 100px;
+        }
+        .hero__ico-b {
+            margin-top: 52vh;
+            height: 100px;
+        }
+        
+    }
+.post-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 50px;
+    padding: 0 auto;
+
+    .post__title {
+        font-family: $playfair;
+        font-size: $large;
+        color: $nickel;
+    }
+    
+    .post__paragraph {
+        margin-top: $x-large;
+        font-size: $medium;
+        color: $raisin-black;
+        .warning {
+            color: $fuzzy-wuzzy;
+        }
+    }
+    .post__btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+
+    @media (min-width: 992px) {
+        .hero {
+            margin-top: 4em;
+            background-size: cover;
+            background-position: 25% 20%;
+            .hero__ico-a {
+                margin-top: 73vh;
+            }
+            .hero__ico-b {
+                margin-top: 75vh;
+            }
+        }
+        .post-container {
+        }
+    }
