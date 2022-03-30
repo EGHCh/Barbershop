@@ -19,6 +19,7 @@
         }
         
     }
+//POST
 .post-container {
     display: flex;
     flex-direction: column;
@@ -35,6 +36,7 @@
         margin-top: $x-large;
         font-size: $medium;
         color: $raisin-black;
+        line-height: $x-large;
         .warning {
             color: $fuzzy-wuzzy;
         }
